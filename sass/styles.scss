@@ -1,5 +1,24 @@
-$bright : #FF0000;
+@import 'partials/settings';
+@import 'foundation/components/grid';
+
+$bright : white;
 
 body {
   background: $bright;
+}
+
+#post_1 {
+  background-color : red;
+}
+
+#post_2 {
+  background-color : blue;
+}
+
+#post_3 {
+  background-color : green;
+}
+
+#post_4 {
+  background-color : maroon;
 }
